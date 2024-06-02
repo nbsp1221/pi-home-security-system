@@ -1,0 +1,5 @@
+*.h264
+*.mp4
+.env
+.venv
+__pycache__
