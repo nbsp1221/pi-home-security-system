@@ -332,5 +332,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(e)
     finally:
-        # camera.stop_recording()
+        camera.stop_recording()
         connection.close()
