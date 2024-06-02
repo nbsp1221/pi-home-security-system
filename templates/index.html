@@ -132,8 +132,6 @@
       const humidities = records.map((record) => (record.humidity));
       const labels = records.map((record) => dayjs(record.created_at).format('mm:ss'));
 
-      console.log('records', records);
-
       const minTemperature = Math.min(...temperatures);
       const maxTemperature = Math.max(...temperatures);
       const minHumidity = Math.min(...humidities);
